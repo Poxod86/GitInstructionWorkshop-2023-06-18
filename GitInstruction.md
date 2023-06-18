@@ -2,6 +2,8 @@
 
 ## Что это и для чего нужна система контроля версий?
 
+Системы контроля версий — это программные инструменты, помогающие командам разработчиков управлять изменениями в исходном коде с течением времени. В свете усложнения сред разработки они помогают командам разработчиков работать быстрее и эффективнее. Системы контроля версий наиболее полезны командам DevOps, поскольку помогают сократить время разработки и увеличить количество успешных развертываний.
+
 ### Что такое система контроля версий?
 Система контроля версий позволяет вернуться к любому историческому коду в репозитории, также возможно командная работа, работа с ветками и т.п.
 
@@ -10,6 +12,13 @@
 ## Установка git и VSCode на ваш ПК.
 
 ### Установка VSCode на ваш ПК.
+Installation
+Download the Visual Studio Code installer for Windows.
+Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.
+By default, VS Code is installed under C:\Users\{Username}\AppData\Local\Programs\Microsoft VS Code.
+Alternatively, you can also download a Zip archive, extract it and run Code from there.
+
+Tip: Setup will add Visual Studio Code to your %PATH%, so from the console you can type 'code .' to open VS Code on that folder. You will need to restart your console after the installation for the change to the %PATH% environmental variable to take effect.
 
 ### Установка git на ваш ПК
 
